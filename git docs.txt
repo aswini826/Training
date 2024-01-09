@@ -33,32 +33,4 @@ I will assume that at this point you have installed Git. To verify this, you can
 
 The next thing you'll need to do is to set your username and email address. Git will use this information to identify who made specific changes to files.
 
-To set your username, type and execute these commands: git config --global user.name "YOUR_USERNAME" and git config --global user.email "YOUR_EMAIL". Just make sure to replace "YOUR_USERNAME" and "YOUR_EMAIL" with the values you choose.
-
-How to Create and Initialize a Project in Git
-We are finally done with installing and setting up Git. It is now time to create our project.
-
-I have created a folder on my desktop called Git and GitHub tutorial. Using the command line, navigate to your new project's location. For me, I would run the following commands:
-
-cd desktop
-
-cd Git and GitHub tutorial
-
-If you are new to the command line and are still learning how to use it to navigate around your PC, then I would suggest using Microsoft's Visual Studio Code. It is a code editor which has an inbuilt terminal for executing commands. You can download it here.
-
-After installing VS Code, open your project in the editor and open a new terminal for your project. This automatically points the terminal/command line to your project's path.
-
-Now to initialize your project, simply run git init. This will tell Git to get ready to start watching your files for every change that occurs. It looks like this:
-
-Screenshot--95-
-git init
-The first line has information about my PC and the path to where the folder exists. The second line is the command git init, and the third line is the response sent back telling me that my repository (repo) has been initialized. It is considered empty because we have not told Git what files to track.
-
-A repository is just another way to define a project being watched/tracked by Git.
-
-How to commit files in Git
-The next state for a file after the staged state is the committed state. To commit our file, we use the git commit -m "first commit" command.
-
-The first part of the command git commit tells Git that all the files staged are ready to be committed so it is time to take a snapshot. The second part -m "first commit" is the commit message. -m is shorthand for message while the text inside the parenthesis is the commit message.
-
-After executing this command, you should get a response similar to this
+To set your username, type and execute these commands: git config --global user.name "YOUR_USERNAME" and git config --global user.email "YOUR_EMAIL". Just make sure to replace "YOUR_USERNAME" and "YOUR_EMAIL" with the values you choose.git docs
