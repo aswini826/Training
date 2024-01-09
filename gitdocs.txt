@@ -55,3 +55,10 @@ git init
 The first line has information about my PC and the path to where the folder exists. The second line is the command git init, and the third line is the response sent back telling me that my repository (repo) has been initialized. It is considered empty because we have not told Git what files to track.
 
 A repository is just another way to define a project being watched/tracked by Git.
+
+How to commit files in Git
+The next state for a file after the staged state is the committed state. To commit our file, we use the git commit -m "first commit" command.
+
+The first part of the command git commit tells Git that all the files staged are ready to be committed so it is time to take a snapshot. The second part -m "first commit" is the commit message. -m is shorthand for message while the text inside the parenthesis is the commit message.
+
+After executing this command, you should get a response similar to this
